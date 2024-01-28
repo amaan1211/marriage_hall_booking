@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.css"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+        <style>
+              .j1{
+                margin-left: 300px;
+                position: absolute;
+                top: 690px;
+                color: aliceblue;
+                font-family: cursive;
+                font-size: 40px;
+              }
+              .j1:hover{
+                color: chartreuse;
+              }
+            
+@keyframes rote{
+    0%{
+        background-color: green;transform: rotate(0deg); background-image: url("");
+    }
+    25%{
+        background-color: rgb(124, 128, 0);transform: rotate(120deg);
+    }
+    50%{
+        background-color: rgb(128, 51, 0);transform: rotate(240deg);
+    }
+    75%{
+        background-color: rgb(30, 0, 128);transform: rotate(300deg);
+    }
+    100%{
+        background-color: rgb(143, 158, 143);transform: rotate(360deg);
+    }
+}
+
+.p1{
+  position: absolute;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-top: 1210px;
+    margin-left: 220px;
+    height: 60px;
+    width: 60px;
+    background-color: aqua;
+    animation-name: rote;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+        </style>   
+
+
+<style>
+  /* .j1{
+    margin-left: 300px;
+    position: absolute;
+    top: 690px;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 40px;
+  }
+  .j1:hover{
+    color: chartreuse;
+  } */
+
+@keyframes bnn{
+0%{
+background-color:red;
+}
+100%{
+background-color: blue;
+}
+}
+
+#bn{
+/* position: absolute; */
+/* border: 1px solid; */
+/* border-radius: 20px; */
+/* margin-top: 10px; */
+/* margin-left: 960px; */
+/* height: 60px; */
+/* width: 60px; */
+/* background-color: aqua; */
+color: white;
+animation-name: bnn;
+animation-duration: 1s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+</style>   
+
+
+    </head>
+<body>
+    
+  <div class="p1"></div>
+
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><b>Precious Memories </b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="destination.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="Destination(rafi).html" role="button" data-toggle="dropdown" aria-expanded="false">
+            Destination
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="delhi.html">Delhi</a>
+            <a class="dropdown-item" href="jamshedpur.html">Jamshedpur</a>
+            <a class="dropdown-item" href="jaipur.html">Jaipur</a>
+            <a class="dropdown-item" href="">Goa</a>
+            <a class="dropdown-item" href="manali.html">Manali</a>
+            <a class="dropdown-item" href="pune.html">Pune</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="destination.html">others</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="Aboutus.html"> Feedback</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="contact.html"> Contact Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#"> Log in</a>
+          </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+    
+<img src="dest1.jpg" alt="" style="height: 70%x; width: 100%; border: 2px solid; border-radius: 20px; box-shadow: 40px 40px 30px grey; ">
+<h1 class="j1"><b>Plan You Wedding With Indias Largest Wedding Co. </b></h1>
+
+<h1 style=" font-size: 50px;"><center><h2 style="font-size: 70px;">Destination📌</h2><br>Find Your Nearest Wedding🤵🏻👰🏻Venue</center></h1>
+<p><center> Search through a vast selection of venues to <br>find the place that prefectly matches your <br> wedding vision. </center></p>
+<p style=" font-size: 40px;">&nbsp;&nbsp;&nbsp;Venues By Region</p>
+
+ <!-- destination -->
+<!-- city1 -->
+
+ <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3">
+        <div class="card ml-3" style="width: 18rem;">
+            <img src="city1.jpg" class="card-img-top" alt="..." height="50%">
+            <div class="card-body">
+              <h5 class="card-title">Delhi</h5>
+              <p class="card-text">Delhi is the paradise of India!</p>
+              <a href="delhi.html" class="btn" id="bn">Read More👆🏻</a>
+            </div>
+            </div>
+          </div>
+<!-- city2 -->
+
+    <div class="col-lg-3">
+          <div class="card ml-3" style="width: 18rem;">
+            <img src="city2.jpg" class="card-img-top" alt="..." height="50%">
+            <div class="card-body">
+              <h5 class="card-title">Mumbai</h5>
+              <p class="card-text">Mumbai is the only city that never stops.</p>
+              <a href="mumbai.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+            </div>
+            </div>
+            </div>
+<!-- city3 -->
+    
+    <div class="col-lg-3">
+                <div class="card ml-3" style="width: 18rem;">
+                  <img src="city3.jpg" class="card-img-top" alt="..." height="50%">
+                  <div class="card-body">
+                    <h5 class="card-title">Jamshedpur</h5>
+                    <p class="card-text">Tata Steel is it's identity forever</p>
+                    <a href="jamshedpur.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+                  </div>
+                  </div>
+                  </div>
+<!-- city4 -->
+   
+    <div class="col-lg-3">
+          <div class="card ml-3" style="width: 18rem;">
+            <img src="city4manli.jpg" class="card-img-top" alt="..." height="50%">
+            <div class="card-body">
+              <h5 class="card-title">Manali</h5>
+              <p class="card-text">Let the mountains and valleys of Manali steal your heart</p>
+              <a href="manali.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+            </div>
+            </div>
+          </div>
+    </div>
+ </div>
+
+<!-- city 5 -->
+
+ <div class="container-fluid mt-5" >
+    <div class="row">
+        <div class="col-lg-3">
+        <div class="card ml-3" style="width: 18rem;">
+            <img src="city5kokalat.jpg" class="card-img-top" alt="..." height="50%">
+            <div class="card-body">
+              <h5 class="card-title">Kolkata</h5>
+              <p class="card-text">Kolkata, where the past meets the present in perfect harmony</p>
+              <a href="kolkata.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+            </div>
+            </div>
+          </div>
+
+ <!-- city 6 -->
+
+          <div class="col-lg-3">
+            <div class="card ml-3" style="width: 18rem;">
+              <img src="city6bangalore.jpg" class="card-img-top" alt="..." height="50%">
+              <div class="card-body">
+                <h5 class="card-title">Bangalore</h5>
+                <p class="card-text">Bangalore is home to the majority of India's brightest minds.</p>
+                <a href="bangalore.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+              </div>
+              </div>
+              </div>
+
+<!-- city 7 -->
+
+          <div class="col-lg-3">
+          <div class="card ml-3" style="width: 18rem;">
+            <img src="city7chennai.jpg" class="card-img-top" alt="..." height="50%">
+            <div class="card-body">
+              <h5 class="card-title">Chennai</h5>
+              <p class="card-text">Chennai is not just a city, it's a way of life</p>
+              <a href="chennai.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+            </div>
+            </div>
+            </div>
+
+<!-- city 8 -->
+
+            <div class="col-lg-3">
+          <div class="card ml-3" style="width: 18rem;">
+            <img src="city8ahemdabad.jpg" class="card-img-top" alt="..." height="50%">
+            <div class="card-body">
+              <h5 class="card-title">Ahemdabad</h5>
+              <p class="card-text">Ahmedabad is a city of dreams, where aspirations find wings to soar.</p>
+              <a href="ahemdabad.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+            </div>
+            </div>
+          </div>
+          
+    </div>
+ </div>
+
+<!-- city 9 -->
+
+ <div class="container-fluid mt-5" >
+    <div class="row">
+        <div class="col-lg-3">
+        <div class="card ml-3" style="width: 18rem;">
+            <img src="city9pune.jpg" class="card-img-top" alt="..." height="50%">
+            <div class="card-body">
+              <h5 class="card-title">Pune</h5>
+              <p class="card-text">If you want to enjoy the weather, come to Pune.</p>
+              <a href="pune.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+            </div>
+            </div>
+          </div>
+
+<!-- city 10 -->
+
+          <div class="col-lg-3">
+            <div class="card ml-3" style="width: 18rem;">
+              <img src="city10surat.jpg" class="card-img-top" alt="..." height="50%">
+              <div class="card-body">
+                <h5 class="card-title">Surat</h5>
+                <p class="card-text">The city has a very vibrant economy</p>
+                <a href="surat.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+              </div>
+              </div>
+              </div>
+
+<!-- city 11 -->
+
+          <div class="col-lg-3">
+          <div class="card ml-3" style="width: 18rem;">
+            <img src="city11jaipur.jpg" class="card-img-top" alt="..." height="50%">
+            <div class="card-body">
+              <h5 class="card-title">Jaipur</h5>
+              <p class="card-text">Pink city, pink skies, perfect vibes</p>
+              <a href="jaipur.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+            </div>
+            </div>
+            </div>
+
+<!-- city 12 -->
+
+            <div class="col-lg-3">
+          <div class="card ml-3" style="width: 18rem;">
+            <img src="city12bhopal.jpg" class="card-img-top" alt="..." height="50%">
+            <div class="card-body">
+              <h5 class="card-title">Bhopal</h5>
+              <p class="card-text">I love the homely atmosphere of Indore and Bhopal</p>
+              <a href="bhopal.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+            </div>
+            </div>
+          </div>
+          
+    </div>
+ </div>
+
+<!-- city 13 -->
+
+         <div class="container-fluid mt-5" >
+           <div class="row">
+           <div class="col-lg-3">
+            <div class="card ml-3" style="width: 18rem;">
+            <img src="city13indore.jpg" class="card-img-top" alt="..." height="50%">
+            <div class="card-body">
+              <h5 class="card-title">Indore</h5>
+              <p class="card-text">The place is heaven for food lovers</p>
+              <a href="indore.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+            </div>
+            </div>
+          </div>
+
+<!-- city 14 -->
+
+          <div class="col-lg-3">
+            <div class="card ml-3" style="width: 18rem;">
+              <img src="city14thane.jpg" class="card-img-top" alt="..." height="50%">
+              <div class="card-body">
+                <h5 class="card-title">Thane</h5>
+                <p class="card-text">Thane is popularly known as 'City of Lakes' </p>
+                <a href="thane.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+              </div>
+          </div>
+         </div>
+
+<!-- city 15 -->
+
+     <div class="col-lg-3">
+          <div class="card ml-3" style="width: 18rem;">
+            <img src="city15srinagar.jpg" class="card-img-top" alt="..." height="50%">
+            <div class="card-body">
+              <h5 class="card-title">Srinagar</h5>
+              <p class="card-text">Srinagar, where the heart finds solace in the mountains</p>
+              <a href="srinagar.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+            </div>
+        </div>
+     </div>
+
+<!-- city 16 -->
+
+     <div class="col-lg-3">
+          <div class="card ml-3" style="width: 18rem;">
+            <img src="city16amritshar.jpg" class="card-img-top" alt="..." height="50%">
+            <div class="card-body">
+              <h5 class="card-title">Amritshar</h5>
+              <p class="card-text">Amritsar is not just another city, it is a feeling.</p>
+              <a href="amritshar.html" class="btn btn-primary" id="bn">Read More👆🏻</a>
+            </div>
+            </div>
+          </div>
+        </div>
+   </div>
+
+<!-- <footer> -->
+
+    <footer class ="text-center text-lg-start bg-body-tertiary text-light bg-dark mt-3">
+        <!-- Section: Social media -->  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          
+        
+            <!-- Right -->
+            <div>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <!-- Right -->
+          </section>
+          <!-- Section: Social media -->
+        
+          <!-- Section: Links  -->
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <!-- Content -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-gem me-3"></i>Company name
+                  </h6>
+                  <p>
+                    Here you can use rows and columns to organize your footer content. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit.
+                  </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Products
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">Angular</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">React</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Vue</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Laravel</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Useful links
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">Pricing</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Settings</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Orders</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Help</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                  <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                  <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    info@example.com
+                  </p>
+                  <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                  <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+         
+          <!-- Copyright -->
+          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    
+
+
+
+</body>
+</html>
